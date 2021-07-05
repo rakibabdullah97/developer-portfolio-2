@@ -1,0 +1,88 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.top-banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 35px;
+}
+span{
+    color: red;
+}
+#orange{
+    color: black;
+}
+.box-1{
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.border-1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+.box-2{
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.border-2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue,purple);
+    border-image-slice: 1;
+}
+.box-3{
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.border-3{
+ border-left: 7px solid;
+ border-radius: 1opx;
+ border-image: linear-gradient(red,pink);
+ border-image-slice: 1;
+}
+.box-4{
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.border-4{
+    border-left: 7px solid ;
+    border-image: linear gradient(orangered, salmon);
+    border-image-slice: 1;
+}
+.down-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
